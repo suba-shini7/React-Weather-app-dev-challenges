@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    min-height: 100vh;
+    width: 100%;
+    color: white;
+    position: relative;  
+    display: flex;
+    background-color: #0b1526 ;
+   
+}
+.SearchBar{
+    width: 40%;
+    height: 100vh;
+    background-color:
+    #0b1526 ;
+}
+
+/* result */
+.hidden_div{
+    position: absolute;
+    top: 0;
+    background-color:
+    #0b1526 ;
+    width: 28%;
+    left: 0;
+    height: 100%;
+}
+.srheader{
+    margin-top: 10px;
+    float:right;
+    margin-right: 20px;
+}
+.srheader button{
+  background-color: transparent;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  /* margin-right: 20px; */
+}
+.srhbar{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-evenly;
+}
+.srcloc{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 30px;
+    color: white;
+}
+/* result */
+.search{
+    background: #3C47E9;
+    color: white;
+    border: 0;
+    width: 50px;
+
+}
+.srcplc
+{
+    background:#894e6b;
+    color: white;
+    border: 0;
+    font-size: 12px;
+    height: 20px;
+    width: 150px;
+    margin-top: 20px;
+}
+.bi-crosshair{
+    margin-top:20px ;
+    /* margin-right: 20px; */
+}
+.searchplace{
+    display: flex;
+    justify-content: space-evenly;
+}
+.bottom{
+    margin-top: 100px;
+    text-align: center;
+    margin-left: -450px;
+
+}
+.images{
+    width: 100%px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    width: 200px;
+    height: 200px;    
+}
+.bottom h1{
+    font-size: 60px;
+    margin-top: 30px;
+}
+.bottom h1 span{
+    font-size: 30px;
+    color: #A09FB1;
+    font-weight: lighter;
+}
+.bottom h4{
+    color: #A09FB1;
+    margin-top: 30px;
+}
+.bottom p{
+    margin-top: 30px;
+    color: #A09FB1;
+}
+.bottom h6,h5{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    color: #A09FB1;
+    font-size: 20px;
+
+}
+.todaycards{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.daycards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    flex-wrap: wrap;
+
+    
+}
+.footer{
+    color: #9E9E9E;
+    margin: 30px;
+    text-align: center;
+  }
+  .footer span{
+    text-decoration: underline;
+  }
+  .weather{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .weather img{
+    width: 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    opacity: 0.9;
+  }
+  .weather h1{
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 50px;
+    color:whitesmoke;
+    
+  }
+  .weather p{
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    left: 50px;
+    color:whitesmoke;
+  }
+  .locsrch{
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .highlight{
+    margin-top: 40px;
+    font-size: 30px;
+  }
